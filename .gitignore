@@ -1,26 +1,9 @@
-# Python
-__pycache__
-*.pyc
-*.egg-info
-dist
+.vscode/
 
-# Log
-*.log
-*.log.*
-*.json
-*.jsonl
+wandb/
 
-# Data
-!**/alpaca-data-conversation.json
+**.pyc
 
-# Editor
-.idea
-*.swp
+.gitignore
 
-# Other
-.DS_Store
-wandb
-output
-
-checkpoints
-ckpts*
+/root/PiFold/
